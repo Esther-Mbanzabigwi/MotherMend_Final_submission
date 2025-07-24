@@ -1,0 +1,38 @@
+import { Colors } from "@/constants/Colors";
+import AuthContextProvider from "@/context/authcontext";
+import { PredictionProvider } from "@/context/PredictionContext";
+import { Stack } from "expo-router";
+import { StatusBar } from "expo-status-bar";
+import { SafeAreaView } from "react-native";
+
+export default function RootLayout() {
+  return (
+    <AuthContextProvider>
+      <PredictionProvider>
+        <SafeAreaView
+          style={{ flex: 1, backgroundColor: Colors.light.background }}
+        >
+          <StatusBar style="dark" />
+          <Stack
+            screenOptions={{
+              headerShown: false,
+            }}
+          >
+            <Stack.Screen
+              name="(auth)"
+              options={{
+                headerShown: false,
+              }}
+            />
+            <Stack.Screen
+              name="(tabs)"
+              options={{
+                headerShown: false,
+              }}
+            />
+          </Stack>
+        </SafeAreaView>
+      </PredictionProvider>
+    </AuthContextProvider>
+  );
+}

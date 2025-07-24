@@ -1,0 +1,35 @@
+# Core application dependencies
+fastapi==0.68.1
+uvicorn==0.15.0
+python-multipart==0.0.5
+
+# Deep learning and computer vision
+torch==2.2.2
+torchvision==0.17.2
+
+# Image processing
+pillow==11.3.0
+opencv-python==4.7.0.72
+aiofiles==0.7.0
+
+# Data processing and scientific computing
+numpy==1.24.4
+pandas==2.3.1
+
+# Machine learning utilities
+scikit-learn==1.6.1
+
+# Visualization (for notebook)
+matplotlib==3.9.4
+seaborn==0.13.2
+
+# Progress bars (for notebook)
+tqdm==4.67.1
+
+# FastAPI dependencies
+starlette==0.14.2
+pydantic==1.10.22
+jinja2==3.0.1
+
+# System and utility dependencies
+python-dateutil==2.9.0.post0
