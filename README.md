@@ -1,6 +1,6 @@
 #  MotherMend Project
 
-Wound Assistant is a comprehensive mobile application designed to assist in the assessment and management of C-section wounds. It leverages a machine learning model to classify wound types from images, providing valuable insights for healthcare professionals and patients.
+MotherMend Wound Assistant is a comprehensive mobile application designed to assist in the assessment and management of C-section wounds. It leverages a machine learning model to classify wound types from images, providing valuable insights for healthcare professionals and patients.
 
 The project is composed of three main components:
 
@@ -106,7 +106,7 @@ cd wound_classification_Model
 docker-compose up --build
 ```
 
-The model's API will be available at `https://wound-model-api.onrender.com`. You can view the API documentation at `.
+The model's API will be available at `https://wound-model-api.onrender.com`. You can view the API documentation at 'https://wound-model-api.onrender.com/docs`.
 
 ## Usage
 
