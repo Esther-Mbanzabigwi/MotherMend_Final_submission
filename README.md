@@ -66,7 +66,7 @@ npm run develop
 yarn develop
 ```
 
-The backend server will start on `http://localhost:1337`.
+The backend server will start on `https://wound-assitant-backend.onrender.com`.
 
 ### 3. Frontend Setup
 
