@@ -1,6 +1,6 @@
-# Wound Assistant Project
+#  MotherMend Project
 
-Wound Assistant is a comprehensive mobile application designed to assist in the assessment and management of wounds. It leverages a machine learning model to classify wound types from images, providing valuable insights for healthcare professionals and patients.
+Wound Assistant is a comprehensive mobile application designed to assist in the assessment and management of C-section wounds. It leverages a machine learning model to classify wound types from images, providing valuable insights for healthcare professionals and patients.
 
 The project is composed of three main components:
 
