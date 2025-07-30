@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed on your system:
 First, clone the project repository to your local machine:
 
 ```bash
-git clone <[https://github.com/Esther-Mbanzabigwi/MotherMend_Final_submission.git](https://github.com/Esther-Mbanzabigwi/MotherMend_Final_submission.git)>
+git clone <https://github.com/Esther-Mbanzabigwi/MotherMend_Final_submission.git>
 cd <repository-directory>
 ```
 
